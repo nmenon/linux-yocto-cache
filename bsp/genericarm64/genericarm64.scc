@@ -10,6 +10,8 @@ kconf hardware genericarm64-regulator.cfg
 kconf hardware genericarm64-remoteproc.cfg
 kconf hardware genericarm64-serial.cfg
 
+kconf hardware bsp/qcomm-common/qcomm-arm64-soc-drivers.cfg
+
 include cfg/8250.scc
 include cfg/boot-live.scc
 include cfg/efi-ext.scc
